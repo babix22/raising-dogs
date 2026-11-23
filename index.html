@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raising Dogs — Treino canino, banhos e tosquias e pet shop</title>
+  <meta name="description" content="Na Raising Dogs dedicamo-nos ao bem-estar, educação e cuidado dos animais: treino e educação canina, banhos e tosquias e uma pet shop com produtos para o seu companheiro.">
+  <meta name="theme-color" content="#0e3557">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_PT">
+  <meta property="og:title" content="Raising Dogs — Mais do que cuidar, é criar uma ligação">
+  <meta property="og:description" content="Treino e educação canina, banhos e tosquias e pet shop.">
+  <meta property="og:image" content="assets/img/hero.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero-cao.webp" imagesrcset="assets/img/hero-cao-640.webp 640w, assets/img/hero-cao.webp 1214w" imagesizes="(min-width: 960px) 46vw, 90vw">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PetStore",
+    "name": "Raising Dogs",
+    "description": "Treino e educação canina, banhos e tosquias e pet shop."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+
+  <!-- Símbolos SVG reutilizáveis -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4-2 1.3a12 12 0 0 0 6.6 6.6l1.3-2 4 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8.5h2.5V5H14a3.5 3.5 0 0 0-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.5L17 11h-3V9a.5.5 0 0 1 .5-.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 32 32"><path d="M16 27s-10-6.3-10-14a5.6 5.6 0 0 1 10-3.4A5.6 5.6 0 0 1 26 13c0 7.7-10 14-10 14z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 32 32"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20.5 11.5l-2.6 6.4-6.4 2.6 2.6-6.4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 32 32"><path d="M5 20l5.5-1.5a3 3 0 0 1 2.3.3l3.7 2.2h4a1.6 1.6 0 0 1 0 3.2h-5.5M5 26.5l3-1h9l9-5.2a1.8 1.8 0 0 0-1.9-3L19 19.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 12.5s-4-2.4-4-5.2A2.2 2.2 0 0 1 18 6a2.2 2.2 0 0 1 4 1.3c0 2.8-4 5.2-4 5.2z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-paw" viewBox="0 0 32 32"><ellipse cx="16" cy="21" rx="6" ry="5" fill="currentColor"/><ellipse cx="9" cy="13.5" rx="2.4" ry="3" fill="currentColor"/><ellipse cx="13.5" cy="9" rx="2.4" ry="3.1" fill="currentColor"/><ellipse cx="18.5" cy="9" rx="2.4" ry="3.1" fill="currentColor"/><ellipse cx="23" cy="13.5" rx="2.4" ry="3" fill="currentColor"/></symbol>
+  </svg>
+
+  <!-- ===================== 01 · HEADER ===================== -->
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo" aria-label="Raising Dogs — início">
+        <picture>
+          <source srcset="assets/img/logo-raising-dogs.webp" type="image/webp">
+          <img class="logo-img" src="assets/img/logo-raising-dogs.png" width="240" height="240" alt="Raising Dogs">
+        </picture>
+      </a>
+
+      <nav class="main-nav" id="menu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#pet-shop">Pet Shop</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+        </ul>
+        <a href="#contactos" class="btn btn--primary nav-cta">Fale connosco</a>
+      </nav>
+
+      <button class="nav-toggle" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===================== 02 · HERO ===================== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <p class="hero-kicker" aria-hidden="true">Mais do que cuidar, é criar uma ligação.</p>
+      <h1 id="hero-titulo" class="hero-word">
+        <span>Raising</span> <span>Dogs</span>
+        <span class="sr-only"> — Mais do que cuidar, é criar uma ligação.</span>
+      </h1>
+
+      <div class="hero-dog">
+        <img src="assets/img/hero-cao.webp"
+             srcset="assets/img/hero-cao-640.webp 640w, assets/img/hero-cao.webp 1214w"
+             sizes="(min-width: 768px) 40vw, 86vw" width="1214" height="1264" fetchpriority="high"
+             alt="Pastor alemão de orelhas levantadas com coleira vermelha">
+        <!-- Traços desenhados à mão a irradiar da cabeça do cão (coordenadas da imagem) -->
+        <svg class="hero-doodles" viewBox="0 0 1214 1264" aria-hidden="true">
+          <g class="hd-left"><path style="--i:1" d="M318 378Q265 348 206 333"/><path style="--i:2" d="M302 481Q227 481 153 466"/><path style="--i:3" d="M296 586Q245 589 197 603"/></g>
+          <g class="hd-right"><path style="--i:4" d="M1081 607Q1141 614 1198 632"/><path style="--i:5" d="M1079 491Q1154 495 1229 481"/><path style="--i:6" d="M1074 373Q1119 350 1168 339"/></g>
+          <g class="hd-top"><path style="--i:7" d="M731 175Q742 132 746 87"/><path style="--i:8" d="M634 177Q627 142 627 107"/></g>
+        </svg>
+      </div>
+
+      <div class="hero-bottom container">
+        <div class="hero-left">
+          <p class="hero-tagline reveal">Mais do que cuidar, é criar uma ligação.</p>
+          <a href="#servicos" class="hero-pill reveal">
+            Conheça os nossos serviços
+            <span class="hero-pill-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          </a>
+        </div>
+
+        <a href="./#servicos-lista" data-svc="1" class="hero-pill hero-pill--new reveal" aria-label="Novidade: Banhos e Tosquias — saiba mais">
+          <img src="assets/img/resultado-shihtzu-800.webp" width="800" height="533" alt="">
+          <span><small>Novo</small>Banhos e Tosquias</span>
+          <span class="hero-pill-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Faixa de serviços -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Treino e Educação Canina</span><svg><use href="#i-paw"/></svg>
+        <span>Banhos e Tosquias</span><svg><use href="#i-paw"/></svg>
+        <span>Pet Shop</span><svg><use href="#i-paw"/></svg>
+        <span>Bem-estar animal</span><svg><use href="#i-paw"/></svg>
+        <span>Treino e Educação Canina</span><svg><use href="#i-paw"/></svg>
+        <span>Banhos e Tosquias</span><svg><use href="#i-paw"/></svg>
+        <span>Pet Shop</span><svg><use href="#i-paw"/></svg>
+        <span>Bem-estar animal</span><svg><use href="#i-paw"/></svg>
+      </div>
+    </div>
+
+    <!-- ===================== 03 · SOBRE ===================== -->
+    <section class="section about" id="sobre" aria-labelledby="sobre-titulo">
+      <!-- Linha azul tipo "trela" que se desenha com o scroll -->
+      <svg class="about-line" viewBox="0 0 1440 1500" preserveAspectRatio="none" aria-hidden="true">
+        <path pathLength="1" d="M1500 140 C 1200 60, 1000 260, 760 200 S 560 40, 420 120 S 40 260, 60 560 S 300 980, 660 1000 S 1100 1060, 1200 1180 S 1440 1260, 1500 1240"/>
+      </svg>
+
+      <div class="container">
+        <div class="about-layout">
+          <div class="about-photo reveal">
+            <figure class="ag ag--main">
+              <img src="assets/img/sobre-treino.webp"
+                   srcset="assets/img/sobre-treino-700.webp 700w, assets/img/sobre-treino.webp 1200w"
+                   sizes="(min-width: 960px) 40vw, 90vw" width="1200" height="1592" loading="lazy" decoding="async"
+                   alt="Treinador com um cão preto sentado ao seu lado, de trela na mão, durante um passeio">
+            </figure>
+            <div class="about-stamp" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <defs><path id="circlePath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+                <text><textPath href="#circlePath">educação · bem-estar · dedicação · </textPath></text>
+              </svg>
+              <svg class="about-stamp-paw"><use href="#i-paw"/></svg>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <h2 id="sobre-titulo" class="about-title reveal"><span>Sobre a</span> <span>Raising Dogs</span></h2>
+            <p class="about-subtitle reveal">Um espaço dedicado a quem faz parte da <span class="scribble">família.<svg viewBox="0 0 240 24" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M4 15 C 50 5, 95 21, 140 11 S 210 6, 236 13"/></svg></span></p>
+            <p class="lead reveal">A Raising Dogs reúne, num só lugar, diferentes áreas de cuidado animal: da educação canina à higiene e estética, passando por uma seleção de produtos para o dia a dia do seu companheiro.</p>
+            <p class="reveal">Acreditamos que cada animal é único. Por isso, procuramos compreender as suas necessidades e acompanhar cada família com atenção, para que a relação entre tutor e animal seja cada vez mais feliz e equilibrada.</p>
+          </div>
+        </div>
+
+        <ol class="about-values">
+          <li style="--i:0">
+            <span class="av-num" aria-hidden="true">01</span>
+            <h3>Educação e respeito</h3>
+            <p>A importância de compreender e respeitar cada animal.</p>
+          </li>
+          <li style="--i:1">
+            <span class="av-num" aria-hidden="true">02</span>
+            <h3>Bem-estar animal</h3>
+            <p>Colocar o conforto e as necessidades dos animais em primeiro lugar.</p>
+          </li>
+          <li style="--i:2">
+            <span class="av-num" aria-hidden="true">03</span>
+            <h3>Dedicação e profissionalismo</h3>
+            <p>Trabalhar com atenção, cuidado e responsabilidade.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== 04 · SERVIÇOS ===================== -->
+    <section class="section services" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="svc-head">
+        <h2 id="servicos-titulo" class="svc-title">
+          <span class="svc-line svc-line--1">Os nossos</span>
+          <span class="svc-line svc-line--2"><em>serviços</em></span>
+        </h2>
+
+        <div class="container svc-head-bottom">
+          <div class="svc-lead reveal">
+            <p class="big-subtitle">Cuidado completo, em cada etapa da vida do seu companheiro.</p>
+            <p class="svc-intro">Do treino à higiene, cada serviço é pensado para o bem-estar do animal e para a tranquilidade de quem cuida dele.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Serviços em ecrã inteiro: o bloco fica fixo e o scroll vai trocando de serviço.
+           IMPORTANTE: manter apenas os serviços confirmados pela empresa (Pet Sitting, Dog Walking, Pet Taxi, tratamentos de estética). -->
+      <div class="services-pin" id="servicos-lista" style="--n:5">
+        <div class="services-stage">
+          <div class="sp-media">
+            <figure class="sp-img is-active" data-index="0">
+              <img src="assets/img/treino-trela.webp" srcset="assets/img/treino-trela-800.webp 800w, assets/img/treino-trela.webp 1600w" sizes="(min-width: 900px) 50vw, 100vw" width="1600" height="1066" loading="eager" decoding="async" alt="Pessoa a acompanhar um cão de grande porte com trela durante um passeio de treino">
+            </figure>
+            <figure class="sp-img" data-index="1">
+              <img src="assets/img/banho.webp" srcset="assets/img/banho-800.webp 800w, assets/img/banho.webp 1024w" sizes="(min-width: 900px) 50vw, 100vw" width="1024" height="683" loading="eager" decoding="async" alt="Cão de pelo escuro a receber um banho, com a mão de uma profissional na cabeça">
+            </figure>
+            <figure class="sp-img" data-index="2">
+              <img src="assets/img/pet-sitting.webp" srcset="assets/img/pet-sitting-800.webp 800w, assets/img/pet-sitting.webp 1400w" sizes="(min-width: 900px) 50vw, 100vw" width="1400" height="933" loading="eager" decoding="async" alt="Golden retriever deitado num tapete, a piscar o olho">
+            </figure>
+            <figure class="sp-img" data-index="3">
+              <img src="assets/img/dog-walking.webp" srcset="assets/img/dog-walking-800.webp 800w, assets/img/dog-walking.webp 1400w" sizes="(min-width: 900px) 50vw, 100vw" width="1400" height="934" loading="eager" decoding="async" alt="Pessoa a passear vários cães com trela numa praça">
+            </figure>
+            <figure class="sp-img" data-index="4">
+              <img src="assets/img/pet-taxi.webp" srcset="assets/img/pet-taxi-800.webp 800w, assets/img/pet-taxi.webp 1400w" sizes="(min-width: 900px) 50vw, 100vw" width="1400" height="1867" loading="eager" decoding="async" alt="Cão de orelhas compridas com a cabeça de fora da janela de um carro">
+            </figure>
+          </div>
+
+          <nav class="sp-dots" aria-label="Escolher serviço">
+            <ol>
+              <li><button class="sp-dot is-active" data-index="0" aria-label="Treino e Educação Canina" aria-current="true"><span class="sp-dot-label">Treino e Educação Canina</span></button></li>
+              <li><button class="sp-dot" data-index="1" aria-label="Banhos e Tosquias"><span class="sp-dot-label">Banhos e Tosquias</span></button></li>
+              <li><button class="sp-dot" data-index="2" aria-label="Pet Sitting"><span class="sp-dot-label">Pet Sitting</span></button></li>
+              <li><button class="sp-dot" data-index="3" aria-label="Dog Walking"><span class="sp-dot-label">Dog Walking</span></button></li>
+              <li><button class="sp-dot" data-index="4" aria-label="Pet Taxi"><span class="sp-dot-label">Pet Taxi</span></button></li>
+            </ol>
+          </nav>
+
+          <div class="sp-info">
+            <article class="sp-panel is-active" data-index="0" aria-labelledby="sp-t-treino">
+              <div class="sp-panel-inner">
+                <p class="sp-count"><span class="sp-num">01</span> / 05 </p>
+                <h3 id="sp-t-treino" class="sp-title">Treino e Educação Canina</h3>
+                <p class="sp-text">Sessões pensadas para reforçar a comunicação entre o cão e a família, com base na compreensão e no respeito pelo ritmo de cada animal.</p>
+                <ul class="sp-list"><li>Treino de obediência</li><li>Educação canina</li><li>Acompanhamento individual</li><li>Exercícios e atividades de treino</li></ul>
+                <a href="#contactos" class="btn btn--primary sp-cta" data-service="Treino e Educação Canina">Pedir informações <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </article>
+            <article class="sp-panel" data-index="1" aria-labelledby="sp-t-banhos" aria-hidden="true">
+              <div class="sp-panel-inner">
+                <p class="sp-count"><span class="sp-num">02</span> / 05 <span class="tag">Novo serviço</span></p>
+                <h3 id="sp-t-banhos" class="sp-title">Banhos e Tosquias</h3>
+                <p class="sp-text">A nova área da Raising Dogs, dedicada à higiene e ao conforto do seu companheiro, com tempo, calma e cuidado em cada passo.</p>
+                <ul class="sp-list"><li>Banhos</li><li>Tosquias</li><li>Escovagem</li><li>Higiene e cuidados com o pelo</li><li>Tratamentos de manutenção e estética</li></ul>
+                <a href="#contactos" class="btn btn--primary sp-cta" data-service="Banhos e Tosquias">Pedir informações <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </article>
+            <article class="sp-panel" data-index="2" aria-labelledby="sp-t-pet-sitting" aria-hidden="true">
+              <div class="sp-panel-inner">
+                <p class="sp-count"><span class="sp-num">03</span> / 05 </p>
+                <h3 id="sp-t-pet-sitting" class="sp-title">Pet Sitting</h3>
+                <p class="sp-text">Companhia e cuidados para o seu animal quando não pode estar presente, mantendo as rotinas a que está habituado.</p>
+                <a href="#contactos" class="btn btn--primary sp-cta" data-service="Outros">Pedir informações <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </article>
+            <article class="sp-panel" data-index="3" aria-labelledby="sp-t-dog-walking" aria-hidden="true">
+              <div class="sp-panel-inner">
+                <p class="sp-count"><span class="sp-num">04</span> / 05 </p>
+                <h3 id="sp-t-dog-walking" class="sp-title">Dog Walking</h3>
+                <p class="sp-text">Passeios que ajudam a gastar energia, a socializar e a manter uma rotina equilibrada no dia a dia.</p>
+                <a href="#contactos" class="btn btn--primary sp-cta" data-service="Outros">Pedir informações <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </article>
+            <article class="sp-panel" data-index="4" aria-labelledby="sp-t-pet-taxi" aria-hidden="true">
+              <div class="sp-panel-inner">
+                <p class="sp-count"><span class="sp-num">05</span> / 05 </p>
+                <h3 id="sp-t-pet-taxi" class="sp-title">Pet Taxi</h3>
+                <p class="sp-text">Transporte do seu animal com conforto e segurança, por exemplo para consultas ou para os nossos serviços.</p>
+                <a href="#contactos" class="btn btn--primary sp-cta" data-service="Outros">Pedir informações <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 05 · PET SHOP ===================== -->
+    <!-- Uma linha desenha-se com o scroll e, em cada paragem, aparece a ilustração e a informação de um produto. -->
+    <section class="section shop" id="pet-shop" aria-labelledby="shop-titulo">
+      <div class="container">
+        <div class="shop-head">
+          <h2 id="shop-titulo" class="big-title reveal">A nossa loja</h2>
+          <div class="svc-lead reveal">
+            <p class="big-subtitle">Tudo o que os nossos companheiros precisam.</p>
+            <p class="svc-intro">Descubra, na nossa loja física, uma seleção de produtos pensados para o bem-estar, conforto e diversão dos seus animais.</p>
+          </div>
+        </div>
+
+        <div class="shop-draw">
+          <svg class="sd-path sd-path--desk" viewBox="0 0 1200 2550" aria-hidden="true">
+            <path class="sd-ghost" d="M600 0 C600 60 500 120 360 120 C300 120 300 192 300 270 C300 368 341 479 450 479 C540 479 648 489 648 455 C648 429 626 407 600 407 C574 407 552 429 552 455 C552 489 586 503 610 503 C700 503 660 465 750 465 C859 465 900 562 900 660 C900 758 859 855 750 855 C660 855 734 821 680 810 C626 799 650 895 600 895 C550 895 574 799 520 810 C466 821 540 855 450 855 C341 855 300 952 300 1050 C300 1148 130 1089 130 1167 C130 1226 150 1265 240 1265 C360 1265 630 1235 750 1235 C859 1235 900 1342 900 1440 C900 1538 859 1635 750 1635 C660 1635 819 1647 759 1647 C743 1647 701 1644 701 1626 C701 1611 714 1598 730 1598 C746 1598 756 1611 756 1626 C756 1644 733 1658 718 1658 C658 1658 559 1647 499 1647 C483 1647 441 1644 441 1626 C441 1611 454 1598 470 1598 C486 1598 496 1611 496 1626 C496 1644 473 1658 458 1658 C398 1658 540 1635 450 1635 C341 1635 300 1732 300 1830 C300 1928 341 2025 450 2025 C540 2025 460 2075 600 2075 C740 2075 660 2025 750 2025 C859 2025 900 2122 900 2220 C900 2318 840 2410 750 2410 C610 2410 600 2430 600 2520"/>
+            <path class="sd-line" d="M600 0 C600 60 500 120 360 120 C300 120 300 192 300 270 C300 368 341 479 450 479 C540 479 648 489 648 455 C648 429 626 407 600 407 C574 407 552 429 552 455 C552 489 586 503 610 503 C700 503 660 465 750 465 C859 465 900 562 900 660 C900 758 859 855 750 855 C660 855 734 821 680 810 C626 799 650 895 600 895 C550 895 574 799 520 810 C466 821 540 855 450 855 C341 855 300 952 300 1050 C300 1148 130 1089 130 1167 C130 1226 150 1265 240 1265 C360 1265 630 1235 750 1235 C859 1235 900 1342 900 1440 C900 1538 859 1635 750 1635 C660 1635 819 1647 759 1647 C743 1647 701 1644 701 1626 C701 1611 714 1598 730 1598 C746 1598 756 1611 756 1626 C756 1644 733 1658 718 1658 C658 1658 559 1647 499 1647 C483 1647 441 1644 441 1626 C441 1611 454 1598 470 1598 C486 1598 496 1611 496 1626 C496 1644 473 1658 458 1658 C398 1658 540 1635 450 1635 C341 1635 300 1732 300 1830 C300 1928 341 2025 450 2025 C540 2025 460 2075 600 2075 C740 2075 660 2025 750 2025 C859 2025 900 2122 900 2220 C900 2318 840 2410 750 2410 C610 2410 600 2430 600 2520"/>
+            <circle class="sd-pen" r="7" cx="600" cy="0"/>
+          </svg>
+          <svg class="sd-path sd-path--mob" viewBox="0 0 400 1870" aria-hidden="true">
+            <path class="sd-ghost" d="M70 0 C70 40 70 110 70 170 C70 245 55 197 55 272 C55 296 95 296 95 320 C95 344 75 340 55 340 C35 340 28 332 28 312 C28 292 42 284 62 284 C82 284 90 324 90 344 C90 419 70 395 70 470 C70 545 18 530 18 584 C18 638 98 602 98 656 C98 710 70 695 70 770 C70 845 70 811 70 847 C70 859 94 868 94 881 C94 894 83 905 70 905 C57 905 46 894 46 881 C46 868 62 859 72 862 C108 873 70 889 70 925 C70 937 94 946 94 959 C94 972 83 983 70 983 C57 983 46 972 46 959 C46 946 62 937 72 940 C108 951 70 995 70 1070 C70 1145 98 1115 98 1175 C98 1235 14 1196 14 1256 C14 1316 70 1295 70 1370 C70 1445 55 1397 55 1472 C55 1496 95 1496 95 1520 C95 1544 75 1540 55 1540 C35 1540 28 1532 28 1512 C28 1492 42 1484 62 1484 C82 1484 90 1524 90 1544 C90 1619 70 1595 70 1670 C70 1745 70 1760 70 1850"/>
+            <path class="sd-line" d="M70 0 C70 40 70 110 70 170 C70 245 55 197 55 272 C55 296 95 296 95 320 C95 344 75 340 55 340 C35 340 28 332 28 312 C28 292 42 284 62 284 C82 284 90 324 90 344 C90 419 70 395 70 470 C70 545 18 530 18 584 C18 638 98 602 98 656 C98 710 70 695 70 770 C70 845 70 811 70 847 C70 859 94 868 94 881 C94 894 83 905 70 905 C57 905 46 894 46 881 C46 868 62 859 72 862 C108 873 70 889 70 925 C70 937 94 946 94 959 C94 972 83 983 70 983 C57 983 46 972 46 959 C46 946 62 937 72 940 C108 951 70 995 70 1070 C70 1145 98 1115 98 1175 C98 1235 14 1196 14 1256 C14 1316 70 1295 70 1370 C70 1445 55 1397 55 1472 C55 1496 95 1496 95 1520 C95 1544 75 1540 55 1540 C35 1540 28 1532 28 1512 C28 1492 42 1484 62 1484 C82 1484 90 1524 90 1544 C90 1619 70 1595 70 1670 C70 1745 70 1760 70 1850"/>
+            <circle class="sd-pen" r="6" cx="200" cy="0"/>
+          </svg>
+
+          <ol class="sd-items">
+          <li class="sd-item sd-item--r" style="--x:25.000%;--y:10.588%;--mx:17.500%;--my:9.091%" data-x="300" data-y="270" data-mx="70" data-my="170">
+            <span class="sd-icon" aria-hidden="true"><svg viewBox="0 0 120 120"><path pathLength="1" d="M16 62 H104"/><path pathLength="1" d="M22 62 C 26 94, 94 94, 98 62"/><path pathLength="1" d="M40 90 L 36 102 H 84 L 80 90"/><circle pathLength="1" cx="42" cy="54" r="6"/><circle pathLength="1" cx="58" cy="50" r="6"/><circle pathLength="1" cx="74" cy="54" r="6"/><circle pathLength="1" cx="66" cy="38" r="5"/><circle pathLength="1" cx="50" cy="38" r="4"/><circle pathLength="1" cx="86" cy="52" r="4"/></svg></span>
+            <div class="sd-info">
+              <span class="sd-num">01</span>
+              <h3>Alimentação e rações</h3>
+              <p>Alimentação seca e húmida para as diferentes fases e necessidades do seu animal.</p>
+            </div>
+          </li>
+          <li class="sd-item sd-item--l" style="--x:75.000%;--y:25.882%;--mx:17.500%;--my:25.134%" data-x="900" data-y="660" data-mx="70" data-my="470">
+            <span class="sd-icon" aria-hidden="true"><svg viewBox="0 0 120 120"><g transform="rotate(-25 60 60)"><path pathLength="1" d="M38 54 C 36 42, 18 40, 18 50 C 18 56, 22 58, 24 60 C 22 62, 18 64, 18 70 C 18 80, 36 78, 38 66 H82 C 84 78, 102 80, 102 70 C 102 64, 98 62, 96 60 C 98 58, 102 56, 102 50 C 102 40, 84 42, 82 54 Z"/></g><path pathLength="1" d="M96 16 v14 M89 23 h14"/><path pathLength="1" d="M20 98 v10 M15 103 h10"/></svg></span>
+            <div class="sd-info">
+              <span class="sd-num">02</span>
+              <h3>Snacks e recompensas</h3>
+              <p>Petiscos ideais para o treino e para os momentos especiais.</p>
+            </div>
+          </li>
+          <li class="sd-item sd-item--r" style="--x:25.000%;--y:41.176%;--mx:17.500%;--my:41.176%" data-x="300" data-y="1050" data-mx="70" data-my="770">
+            <span class="sd-icon" aria-hidden="true"><svg viewBox="0 0 120 120"><circle pathLength="1" cx="64" cy="62" r="34"/><path pathLength="1" d="M34 46 C 54 58, 74 58, 94 46"/><path pathLength="1" d="M34 78 C 54 66, 74 66, 94 78"/><path pathLength="1" d="M8 44 H20"/><path pathLength="1" d="M4 62 H18"/><path pathLength="1" d="M8 80 H20"/></svg></span>
+            <div class="sd-info">
+              <span class="sd-num">03</span>
+              <h3>Brinquedos</h3>
+              <p>Para brincar, roer e estimular — dentro e fora de casa.</p>
+            </div>
+          </li>
+          <li class="sd-item sd-item--l" style="--x:75.000%;--y:56.471%;--mx:17.500%;--my:57.219%" data-x="900" data-y="1440" data-mx="70" data-my="1070">
+            <span class="sd-icon" aria-hidden="true"><svg viewBox="0 0 120 120"><circle pathLength="1" cx="46" cy="70" r="28"/><rect pathLength="1" x="66" y="58" width="12" height="18" rx="3"/><circle pathLength="1" cx="46" cy="106" r="8"/><path pathLength="1" d="M46 98 V98"/><path pathLength="1" d="M78 64 C 104 52, 82 26, 102 14"/><path pathLength="1" d="M102 14 C 114 6, 120 22, 108 26 C 100 28, 98 20, 102 14"/></svg></span>
+            <div class="sd-info">
+              <span class="sd-num">04</span>
+              <h3>Coleiras, trelas e peitorais</h3>
+              <p>Conforto e segurança em todos os passeios.</p>
+            </div>
+          </li>
+          <li class="sd-item sd-item--r" style="--x:25.000%;--y:71.765%;--mx:17.500%;--my:73.262%" data-x="300" data-y="1830" data-mx="70" data-my="1370">
+            <span class="sd-icon" aria-hidden="true"><svg viewBox="0 0 120 120"><path pathLength="1" d="M12 78 C 12 50, 108 50, 108 78"/><ellipse pathLength="1" cx="60" cy="80" rx="48" ry="22"/><ellipse pathLength="1" cx="60" cy="76" rx="30" ry="11"/><path pathLength="1" d="M80 22 h12 l-12 12 h12"/><path pathLength="1" d="M96 6 h8 l-8 8 h8"/></svg></span>
+            <div class="sd-info">
+              <span class="sd-num">05</span>
+              <h3>Camas e acessórios</h3>
+              <p>Um canto confortável para descansar e acessórios para o dia a dia.</p>
+            </div>
+          </li>
+          <li class="sd-item sd-item--l" style="--x:75.000%;--y:87.059%;--mx:17.500%;--my:89.305%" data-x="900" data-y="2220" data-mx="70" data-my="1670">
+            <span class="sd-icon" aria-hidden="true"><svg viewBox="0 0 120 120"><path pathLength="1" d="M40 52 h36 v50 a6 6 0 0 1 -6 6 h-24 a6 6 0 0 1 -6 -6 z"/><path pathLength="1" d="M50 52 v-10 h16 v10"/><path pathLength="1" d="M58 42 v-12 h18"/><path pathLength="1" d="M48 74 h20"/><path pathLength="1" d="M48 84 h14"/><circle pathLength="1" cx="94" cy="42" r="7"/><circle pathLength="1" cx="102" cy="62" r="4"/><circle pathLength="1" cx="88" cy="22" r="4"/></svg></span>
+            <div class="sd-info">
+              <span class="sd-num">06</span>
+              <h3>Higiene e cuidado animal</h3>
+              <p>Produtos para manter o pelo, a pele e as patas bem cuidados.</p>
+            </div>
+          </li>
+          </ol>
+        </div>
+
+        <div class="shop-cta sd-cta">
+          <p>Procura um produto específico? Fale connosco e ajudamos a encontrar a melhor opção.</p>
+          <a href="#contactos" class="btn btn--primary" data-service="Produtos / Pet Shop">Peça-nos mais informações <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 07 · GALERIA ===================== -->
+    <!-- O bloco fica fixo e o scroll vertical faz deslizar as imagens na horizontal. -->
+    <section class="gallery" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="gal-pin">
+        <div class="gal-stage">
+          <div class="container gal-head">
+            <div>
+              <h2 id="galeria-titulo" class="big-title">Galeria</h2>
+              <p class="big-subtitle">Momentos que contam a nossa história.</p>
+            </div>
+            <div class="filters" role="group" aria-label="Filtrar galeria">
+              <button class="filter is-active" data-filter="all" aria-pressed="true">Todos</button>
+              <button class="filter" data-filter="treino" aria-pressed="false">Treino</button>
+              <button class="filter" data-filter="banhos" aria-pressed="false">Banhos e Tosquias</button>
+              <button class="filter" data-filter="loja" aria-pressed="false">Loja</button>
+            </div>
+          </div>
+
+          <!-- Imagens de demonstração: substituir pelas fotografias reais da empresa -->
+          <div class="gal-viewport">
+            <div class="gal-track" id="masonry">
+              <ul class="g-col" style="--r:0.66">
+                <li class="m-item" data-cat="treino"><button class="m-btn" data-full="assets/img/treino-slalom.webp"><img src="assets/img/treino-slalom-800.webp" width="679" height="1024" loading="lazy" decoding="async" alt="Cão a fazer slalom entre estacas durante um treino de agilidade"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.78">
+                <li class="m-item" data-cat="banhos"><button class="m-btn" data-full="assets/img/tosquia-mesa.webp"><img src="assets/img/tosquia-mesa-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Cão de pelo claro em cima da mesa de tosquia"></button></li>
+                <li class="m-item" data-cat="outros"><button class="m-btn" data-full="assets/img/momento-cachorro.webp"><img src="assets/img/momento-cachorro-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Cachorro golden retriever a correr num campo ao fim da tarde"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.66">
+                <li class="m-item" data-cat="banhos"><button class="m-btn" data-full="assets/img/resultado-maltes.webp"><img src="assets/img/resultado-maltes-800.webp" width="800" height="1198" loading="lazy" decoding="async" alt="Cão pequeno de pelo aparado sentado sobre fundo verde"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.56">
+                <li class="m-item" data-cat="loja"><button class="m-btn" data-full="assets/img/loja-camas.webp"><img src="assets/img/loja-camas-800.webp" width="800" height="600" loading="lazy" decoding="async" alt="Cão deitado numa cama acolchoada cinzenta"></button></li>
+                <li class="m-item" data-cat="treino"><button class="m-btn" data-full="assets/img/treino-atencao.webp"><img src="assets/img/treino-atencao-800.webp" width="800" height="571" loading="lazy" decoding="async" alt="Cão com peitoral e trela a olhar atentamente para cima"></button></li>
+                <li class="m-item" data-cat="loja"><button class="m-btn" data-full="assets/img/loja-humida.webp"><img src="assets/img/loja-humida-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Embalagens de comida húmida para cão alinhadas"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.66">
+                <li class="m-item" data-cat="treino"><button class="m-btn" data-full="assets/img/treino-agilidade.webp"><img src="assets/img/treino-agilidade-800.webp" width="678" height="1024" loading="lazy" decoding="async" alt="Border collie numa rampa de agilidade"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.78">
+                <li class="m-item" data-cat="banhos"><button class="m-btn" data-full="assets/img/escovagem.webp"><img src="assets/img/escovagem-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Escovagem do pelo de um golden retriever"></button></li>
+                <li class="m-item" data-cat="outros"><button class="m-btn" data-full="assets/img/brincar-corda.webp"><img src="assets/img/brincar-corda-800.webp" width="800" height="573" loading="lazy" decoding="async" alt="Border collie a correr na relva com um brinquedo de corda na boca"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.66">
+                <li class="m-item" data-cat="treino"><button class="m-btn" data-full="assets/img/treino-pastor.webp"><img src="assets/img/treino-pastor-800.webp" width="678" height="1024" loading="lazy" decoding="async" alt="Pastor belga a descer uma rampa de agilidade"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.56">
+                <li class="m-item" data-cat="banhos"><button class="m-btn" data-full="assets/img/banho.webp"><img src="assets/img/banho-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Cão a receber banho"></button></li>
+                <li class="m-item" data-cat="loja"><button class="m-btn" data-full="assets/img/loja-snacks.webp"><img src="assets/img/loja-snacks-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Biscoitos em forma de osso"></button></li>
+                <li class="m-item" data-cat="outros"><button class="m-btn" data-full="assets/img/momento-beagle.webp"><img src="assets/img/momento-beagle-800.webp" width="800" height="600" loading="lazy" decoding="async" alt="Beagle sorridente com coleira preta"></button></li>
+              </ul>
+              <ul class="g-col" style="--r:0.7">
+                <li class="m-item" data-cat="outros"><button class="m-btn" data-full="assets/img/momento-labrador.webp"><img src="assets/img/momento-labrador-800.webp" width="800" height="1200" loading="lazy" decoding="async" alt="Cachorro labrador sentado sobre fundo azul"></button></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container gal-foot" aria-hidden="true">
+            <span class="gal-bar"><span></span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 08 · CONTACTOS ===================== -->
+    <section class="section contact" id="contactos" aria-labelledby="contacto-titulo">
+      <div class="container">
+        <header class="contact-head">
+          <h2 id="contacto-titulo" class="big-title reveal">Contactos</h2>
+          <p class="big-subtitle reveal">Vamos cuidar de quem mais importa?</p>
+          <p class="contact-intro reveal">Tem alguma dúvida ou pretende saber mais sobre os nossos serviços? Estamos aqui para ajudar!</p>
+        </header>
+
+        <div class="contact-top">
+          <div class="form-card reveal">
+            <form id="contact-form" novalidate>
+              <div class="field-row">
+                <div class="field">
+                  <label for="f-nome">Nome <span aria-hidden="true">*</span></label>
+                  <input id="f-nome" name="nome" type="text" autocomplete="name" required>
+                  <p class="field-error" id="e-nome" aria-live="polite"></p>
+                </div>
+                <div class="field">
+                  <label for="f-email">Email <span aria-hidden="true">*</span></label>
+                  <input id="f-email" name="email" type="email" autocomplete="email" required>
+                  <p class="field-error" id="e-email" aria-live="polite"></p>
+                </div>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="f-telefone">Telefone <span class="opt">(opcional)</span></label>
+                  <input id="f-telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel">
+                  <p class="field-error" id="e-telefone" aria-live="polite"></p>
+                </div>
+                <div class="field">
+                  <label for="f-servico">Serviço pretendido <span aria-hidden="true">*</span></label>
+                  <div class="select-wrap">
+                    <select id="f-servico" name="servico" required>
+                      <option value="">Selecione uma opção</option>
+                      <option>Treino e Educação Canina</option>
+                      <option>Banhos e Tosquias</option>
+                      <option>Produtos / Pet Shop</option>
+                      <option>Outros</option>
+                    </select>
+                  </div>
+                  <p class="field-error" id="e-servico" aria-live="polite"></p>
+                </div>
+              </div>
+              <div class="field">
+                <label for="f-mensagem">Mensagem <span aria-hidden="true">*</span></label>
+                <textarea id="f-mensagem" name="mensagem" rows="5" required></textarea>
+                <p class="field-error" id="e-mensagem" aria-live="polite"></p>
+              </div>
+              <!-- Anti-spam (honeypot): deve ficar vazio -->
+              <div class="hp" aria-hidden="true"><label>Não preencher <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+              <p class="form-note">* Campos obrigatórios. Ao enviar a mensagem, declara que leu e aceita a <a href="politica-de-privacidade.html" target="_blank" rel="noopener">Política de Privacidade<span class="sr-only"> (abre num novo separador)</span></a> e que os seus dados sejam usados para responder ao seu pedido.</p>
+              <button type="submit" class="btn btn--primary">Enviar mensagem <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+            </form>
+
+            <div class="form-success" id="form-success" hidden tabindex="-1">
+              <span class="success-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span>
+              <h3>Mensagem recebida!</h3>
+              <p>Obrigado pelo seu contacto. Responderemos com a maior brevidade possível.</p>
+              <button type="button" class="btn btn--outline" id="form-reset">Enviar outra mensagem</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Dados de contacto por preencher: substituir os placeholders [ ... ] -->
+        <ul class="contact-cards">
+          <li class="reveal">
+            <a class="c-card c-card--solid" href="tel:+351915208070">
+              <span class="ci"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>
+              <span class="c-label">Telefone</span>
+              <strong>915 208 070</strong>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="c-card c-card--tint" href="mailto:renatoviegas18@gmail.com">
+              <span class="ci"><svg aria-hidden="true"><use href="#i-mail"/></svg></span>
+              <span class="c-label">Email</span>
+              <strong>renatoviegas18@gmail.com</strong>
+            </a>
+          </li>
+          <li class="reveal">
+            <div class="c-card c-card--plain">
+              <span class="ci"><svg aria-hidden="true"><use href="#i-pin"/></svg></span>
+              <span class="c-label">Loja</span>
+              <strong>Av. Carvalha 323 rc direito, 4510-518 Porto</strong>
+            </div>
+          </li>
+        </ul>
+
+        <!-- MAPA: morada em q= e query= (formato: Rua+Exemplo+10,+4000-000+Porto) -->
+        <div class="map-card reveal">
+          <iframe title="Localização da loja Raising Dogs no mapa" src="https://www.google.com/maps?q=Av.+Carvalha+323,+4510-518+Porto&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <div class="map-pin">
+            <strong>Raising Dogs</strong>
+            <span>Av. Carvalha 323 rc direito</span>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Carvalha+323,+4510-518+Porto" target="_blank" rel="noopener">Abrir no Google Maps <span class="sr-only">(abre num novo separador)</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 09 · FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-simple">
+      <a href="#inicio" class="footer-name" aria-label="Raising Dogs — início">Raising Dogs</a>
+      <address class="footer-contact">
+        <p><a href="mailto:renatoviegas18@gmail.com">renatoviegas18@gmail.com</a></p>
+        <p><a href="tel:+351915208070">915 208 070</a> <span aria-hidden="true">|</span> <a href="https://www.facebook.com/raising.dog" target="_blank" rel="noopener">Facebook<span class="sr-only"> (abre num novo separador)</span></a> <span aria-hidden="true">|</span> <a href="https://www.instagram.com/raising.dogs/" target="_blank" rel="noopener">Instagram<span class="sr-only"> (abre num novo separador)</span></a></p>
+        <p>Av. Carvalha 323 rc direito, 4510-518 Porto</p>
+      </address>
+      <p class="footer-credit">Design e desenvolvimento por <a href="https://www.instagram.com/barbara_barbosa_22/" target="_blank" rel="noopener">Bárbara Barbosa<span class="sr-only"> (abre num novo separador)</span></a></p>
+      <div class="footer-links">
+        <span class="footer-copy">© <span id="ano">2026</span> Raising Dogs</span>
+        <a href="#inicio" class="to-top">Voltar ao topo</a>
+        <a href="politica-de-privacidade.html">Política de Privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox da galeria -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizador de imagens" hidden>
+    <button class="lb-close" aria-label="Fechar">×</button>
+    <button class="lb-nav lb-prev" aria-label="Imagem anterior"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    <figure class="lb-figure">
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" aria-label="Imagem seguinte"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+  </div>
+
+  <!-- Política de Privacidade (texto por definir pela empresa) -->
+  <!-- Lenis: scroll suave (https://github.com/darkroomengineering/lenis) -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
